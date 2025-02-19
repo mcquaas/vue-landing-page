@@ -1,24 +1,54 @@
 const faqs = [
     {
         id: 1,
-        title: "What is bookmark?",
-        description: "A bookmark is a feature that allows users to save the URL of a webpage for quick access later. It acts as a shortcut to the webpage, allowing you to navigate back to it without having to remember or search for the URL. Bookmarks are handy for keeping track of your favorite websites, important articles, or resources that you frequently visit. They help you organize your online content and improve your browsing experience.",
+        title: "¿Qué es MedAssist?",
+        description: "MedAssist es un asistente clínico impulsado por IA que ayuda a los profesionales de la salud a analizar entrevistas con pacientes, historial clínico, resultados de laboratorio e imágenes en tiempo real."
     },
     {
         id: 2,
-        title: "How can I request a new browser?",
-        description: "To request a new browser, you can visit our official website and navigate to the 'Feedback' or 'Contact Us' section. There, you can submit your request for a new browser version or feature. Additionally, you can participate in our community forums or reach out to our support team with your suggestions. We value user feedback and use it to enhance our products, so your input is essential in shaping the future of our browser.",
+        title: "¿Cómo funciona Sintomatix?",
+        description: "Sintomatix utiliza entrevistas automatizadas impulsadas por IA para evaluar síntomas y apoya el pre-diagnóstico integrándose con quioscos para capturar datos de salud objetivos."
     },
     {
         id: 3,
-        title: "Is there a mobile app available?",
-        description: "Yes, we offer a mobile app for both Android and iOS platforms. You can download our mobile app from the respective app stores (Google Play Store for Android and the App Store for iOS). The mobile app allows you to sync your bookmarks, browsing history, and other settings across all your devices. You can access your bookmarks on the go, and it provides a seamless browsing experience across your mobile and desktop devices.",
+        title: "¿Cómo se integran estos sistemas con mi expediente clínico electrónico?",
+        description: "Nuestros productos utilizan el estándar deinteroperabilidad FHIR/HL7 para integrarse fácilmente con los sistemas informáticos existentes, asegurando un intercambio de datos eficiente y seguro."
     },
     {
         id: 4,
-        title: "What about other Chromium browsers?",
-        description: "Our bookmarking feature is compatible with various Chromium-based browsers, including popular ones like Google Chrome, Microsoft Edge, Brave, Vivaldi, and others. As long as you are using a version of these browsers that is 62 or higher, you can enjoy the benefits of our bookmarking tool. The integration is seamless and allows you to manage your bookmarks efficiently, regardless of the Chromium browser you prefer.",
+        title: "¿Qué modelos de IA utilizan?",
+        description: "Utilizamos los modelos de IA más avanzados del mundo de compañías como OpenAi, Google, Anthropic, DeepSeek, Grok, entre otros y los combinamos e incorporamos a las diferentes tareeas de nuestros agentes para que sean más precisos y confiables."
     },
+    {
+            id: 5,
+            title: "¿Por qué no simplemente usar ChatGPT?",
+            description: "Nuestros agentes utilizan modelos de IA avanzados con funciones que no son accesibles al público en general y se conectan de manera segura y privada con los datos de los sistemas del proveedor de salud."
+    },
+    {
+        id: 6,
+        title: "¿Qué tipo de datos se utilizan sus agentes?",
+        description: "Aunque usamos modelos preentrenados, los agentes también son alimentados con datos de fuentes confiables como artículos científicos de la literatura médica, bases de datos de salud pública, guías y protocolos de atención clínica y datos sintéticos."
+    },
+    {
+        id: 7,
+        title: "¿Sus agentes son capaces de generar diagnósticos?",
+        description: "No, nuestros agentes no generan diagnósticos. Son capaces de sugerir posibles diagnósticos y tratamientos basándose en la información disponible, pero el diagnóstico final es responsabilidad del médico."
+    },
+    {
+        id: 8,
+        title: "¿Los datos de mis pacientes son privados?",
+        description: "Sí, los datos de los pacientes son privados y nunca son compartidos con terceros. Además, los modelos de IA no tienen acceso a los datos privados de los pacientes y no se usan para entrenarlos."
+    },
+    {
+        id: 9,
+        title: "¿Qué tan costosa o tardada es la integración de estos sistemas?",
+        description: "La integración de nuestros agentes con los sistemas informáticos existentes es relativamente sencilla. Si éstos cuentan con interfaces FHIR/HL7 no se requiere grandes esfuerzos de desarrollo. Un proyecto de integración típicamente varía entre 1 y 3 meses."
+    },
+    {
+        id: 10,
+        title: "¿Cómo se adapta Proxant a la rápida evolución de la IA?",
+        description: "Los algoritmos detrás de nuestros agentes son continuamente mejorados por el equipo de Proxant y actualizados con las últimas versiones probadas de los modelos de IA por lo que siempre estarán utilizando las últimas capacidades disponibles."
+    }
 ];
 
 export default faqs;

@@ -11,8 +11,6 @@ import SubscribeSection from "../sections/SubscribeSection.vue";
 
     <FeatureSection />
 
-    <DownloadSection />
-
     <FaqSection />
 
     <SubscribeSection />
